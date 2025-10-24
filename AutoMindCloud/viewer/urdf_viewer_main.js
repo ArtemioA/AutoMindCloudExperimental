@@ -18,6 +18,11 @@ import { createComponentsPanel } from './ui/ComponentsPanel.js';
  * @param {number|null} [opts.background=THEME.bgCanvas]
  * @param {string|null} [opts.clickAudioDataURL] — optional UI SFX (not required)
  */
+
+export let result = 2 + 2;
+
+console.log("TEST");
+
 export function render(opts = {}) {
   const {
     container,
@@ -379,8 +384,3 @@ function installClickSound(dataURL) {
   window.__urdf_click__ = play;
 }
 
-/* --------------------- Global UMD-style hook -------------------- */
-
-if (typeof window !== 'undefined') {
-  window.URDFViewer = { render };
-}
