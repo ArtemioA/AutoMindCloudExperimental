@@ -1,7 +1,9 @@
+
+
 <!-- 🔹 HEADER -->
 <p align="center">
-  <img width="545" height="158" alt="AutoMind Logo"
-       src="https://github.com/user-attachments/assets/2c320b9b-fe05-43db-a91c-f0b145c71bcd" />
+  <img width="300" height="300" alt="AutoMind Logo"
+       src="https://github.com/user-attachments/assets/b238ab21-bbb8-447e-b4b1-3782cdab95bb" />
 </p>
 
 <br>
