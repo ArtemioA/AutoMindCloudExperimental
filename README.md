@@ -68,16 +68,6 @@
 
 ---
 
-**Nuclear Physics**  
-➡️ [Open in Colab](https://colab.research.google.com/drive/16XNpgvXsNqvK9qBESKXUa4QjcQBbJl2W?usp=sharing)
-
-<p align="center">
-  <img width="593" height="279" alt="Nuclear Physics"
-       src="https://github.com/user-attachments/assets/41a46153-a2c8-4096-a6cf-b79309473594" />
-</p>
-
----
-
 ### ✏️ Whiteboard
 *(Thanks to my sister Mercedes Araya Day for the drawing)*
 
