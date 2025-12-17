@@ -91,7 +91,7 @@
 ### 🤖 IA Calculus Summary
 
 <p align="center">
-  <img width="1118" height="476" alt="IA Calculus Summary"
+  <img width="933" height="481" alt="IA Calculus Summary"
        src="https://github.com/user-attachments/assets/e73298a1-658a-4e00-a626-944475e56821" />
 </p>
 
@@ -99,7 +99,7 @@
 
 ### 🧱 Step Render on Colab
 <p align="center">
-  <img width="1306" height="436" alt="STEP Render"
+  <img width="933" height="481" alt="STEP Render"
        src="https://github.com/user-attachments/assets/56414870-9c4e-423d-aa7e-d9aeaa8e443f" />
 </p>
 
