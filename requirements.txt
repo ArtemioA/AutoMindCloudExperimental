@@ -1,9 +1,1 @@
-sympy
-gdown
-cascadio
-trimesh
-cadquery
-requests
-
-
 
