@@ -102,8 +102,6 @@ def Download_DXF(Drive_link: str, show_output: bool = False):
     if os.path.exists(zip_path):
         os.remove(zip_path)
 
-    return "/content"
-
 
 def DXF_Visualization(file_path):
     # Leer el archivo DXF y convertirlo a base64
