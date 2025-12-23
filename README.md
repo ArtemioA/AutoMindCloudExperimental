@@ -89,8 +89,8 @@
 
 ### 🧱 Step Render on Colab
 <p align="center">
-  <img width="500" height="481" alt="STEP Render"
-       src="https://github.com/user-attachments/assets/56414870-9c4e-423d-aa7e-d9aeaa8e443f" />
+  <img width="1000" height="1000" alt="STEP Render"
+       src="https://github.com/user-attachments/assets/3e8d215d-2081-4aa3-83d1-13ab6dbc6046" />
 </p>
 
 ---
