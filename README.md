@@ -7,13 +7,15 @@
 
 <br>
 
+
 <!-- 🔹 MINI IMAGES SIDE BY SIDE -->
 <p align="center">
   <img width="200" height="200" alt="Preview 1"
-       src="https://github.com/user-attachments/assets/18c36cdb-51f9-48f0-9458-52fa5ef2e844" style="margin-right: 20px;" />
+       src="https://github.com/user-attachments/assets/18c36cdb-51f9-48f0-9458-52fa5ef2e844" style="margin-right: 50px;" />
   <img width="300" height="300" alt="Preview 2"
-       src="https://github.com/user-attachments/assets/a7f1916b-e530-40b9-8b19-1af1d14c5e79" />
+       src="https://github.com/user-attachments/assets/0f199ed9-d545-4450-8440-ff3fab8af250" />
 </p>
+
 
 
 ---
