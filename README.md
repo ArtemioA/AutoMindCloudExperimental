@@ -18,7 +18,7 @@
 
 ---
 
-<h3 align="center">🚀 AutoMind Cloud Library for Colab</h3>
+<h3 align="center">🚀 Classical Engineering Library for Colab</h3>
 
 <p align="center">
   <em>Request reading permissions to <b>Artemio Araya Day</b></em><br>
