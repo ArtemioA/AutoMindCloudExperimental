@@ -32,7 +32,9 @@
 - ⚙️ **Calculus Digitalization & Automation** (Automatic Evaluation complement to Sympy)  
 - 🧠 **Calculus Summary with IA**  
 - 🧩 **Whiteboard Integration on Colab**  
-- 🧱 **STEP / URDF Renderers**
+- 🧱 **STEP / URDF Visualization**
+- 📐 **DXF Visualization**
+
 
 ---
 
@@ -69,6 +71,15 @@
 
 ---
 
+### 🤖 IA Calculus Summary
+
+<p align="center">
+  <img width="500" height="481" alt="IA Calculus Summary"
+       src="https://github.com/user-attachments/assets/4ff1cc38-e433-4e22-bfed-be239780da3f" />
+</p>
+
+---
+
 ### ✏️ Whiteboard
 *(Thanks to my sister Mercedes Araya Day for the drawing)*
 
@@ -77,14 +88,6 @@
        src="https://github.com/user-attachments/assets/eb9b46c6-038d-4acd-b46d-ad6ef2f725e8" />
 </p>
 
----
-
-### 🤖 IA Calculus Summary
-
-<p align="center">
-  <img width="500" height="481" alt="IA Calculus Summary"
-       src="https://github.com/user-attachments/assets/4ff1cc38-e433-4e22-bfed-be239780da3f" />
-</p>
 
 ---
 
@@ -101,4 +104,14 @@
   <img width="1322" height="513" alt="URDF Render"
        src="https://github.com/user-attachments/assets/78274caa-d11c-4539-a9b6-40eb9df25a9c" />
 </p>
+
+
+
+### 🤖 DXF Visualization on Colab
+
+<p align="center">
+  <img width="500" height="500" alt="URDF Render"
+       src="https://github.com/user-attachments/assets/8b279d39-5bdb-4545-8081-274ea3af9219" />
+</p>
+
 
