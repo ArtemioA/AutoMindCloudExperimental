@@ -98,6 +98,6 @@
 ### 🤖 URDF Render on Colab
 <p align="center">
   <img width="1322" height="513" alt="URDF Render"
-       src="https://github.com/user-attachments/assets/c88f28eb-ab80-42a0-965c-a77981ce9b4e" />
+       src="https://github.com/user-attachments/assets/78274caa-d11c-4539-a9b6-40eb9df25a9c" />
 </p>
 
