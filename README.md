@@ -24,7 +24,7 @@
 
 <p align="center">
   <em>Request reading permissions to <b>Artemio Araya Day</b></em><br>
-  <a href="https://colab.research.google.com/drive/1cwDrG9dbK1MfyaiI2gRaXxdlKRAjw_Wp?usp=sharing">📘 Open Library on Google Colab</a>
+  <a href="https://colab.research.google.com/drive/1D5bhXhnn2gioKrZ_1pN5_9wbBj0fxwlI?usp=sharing">📘 Open Library on Google Colab</a>
 </p>
 
 ---
