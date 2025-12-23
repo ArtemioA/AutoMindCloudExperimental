@@ -1,6 +1,110 @@
 import base64
 from IPython.display import HTML
 
+import os
+import shutil
+import zipfile
+import gdown
+import contextlib
+import io
+
+def Download_DXF(Drive_link: str, show_output: bool = False):
+    """
+    Download a ZIP from Google Drive and extract its CONTENTS
+    directly into /content (no extra folder).
+
+    - Hides gdown/tqdm output by default
+    - Handles single-root-folder ZIPs or flat ZIPs
+    - Removes __MACOSX and hidden files
+    - Safe re-runs
+    """
+
+    ROOT = "/content"
+
+    # --------------------------------------------------
+    # Extract file ID
+    # --------------------------------------------------
+    if "/d/" not in Drive_link:
+        raise ValueError("Invalid Google Drive link (expected .../d/<FILE_ID>/...)")
+
+    file_id = Drive_link.split("/d/")[1].split("/")[0]
+    url = f"https://drive.google.com/uc?id={file_id}"
+
+    zip_path = os.path.join(ROOT, "__download.zip")
+    tmp_dir  = os.path.join(ROOT, "__tmp_extract")
+
+    # --------------------------------------------------
+    # Cleanup previous runs
+    # --------------------------------------------------
+    for p in (zip_path, tmp_dir):
+        if os.path.exists(p):
+            if os.path.isdir(p):
+                shutil.rmtree(p)
+            else:
+                os.remove(p)
+
+    os.makedirs(tmp_dir, exist_ok=True)
+
+    # --------------------------------------------------
+    # Download ZIP (silenced)
+    # --------------------------------------------------
+    if show_output:
+        gdown.download(url, zip_path, quiet=True, fuzzy=True)
+    else:
+        buf_out, buf_err = io.StringIO(), io.StringIO()
+        with contextlib.redirect_stdout(buf_out), contextlib.redirect_stderr(buf_err):
+            gdown.download(url, zip_path, quiet=True, fuzzy=True)
+
+    # --------------------------------------------------
+    # Extract ZIP
+    # --------------------------------------------------
+    with zipfile.ZipFile(zip_path, "r") as zf:
+        zf.extractall(tmp_dir)
+
+    # --------------------------------------------------
+    # Filter junk
+    # --------------------------------------------------
+    def is_junk(name: str) -> bool:
+        return name.startswith(".") or name == "__MACOSX"
+
+    items = [n for n in os.listdir(tmp_dir) if not is_junk(n)]
+
+    # --------------------------------------------------
+    # Unwrap single root folder if needed
+    # --------------------------------------------------
+    if len(items) == 1 and os.path.isdir(os.path.join(tmp_dir, items[0])):
+        src_root = os.path.join(tmp_dir, items[0])
+    else:
+        src_root = tmp_dir
+
+    # --------------------------------------------------
+    # Move everything into /content
+    # --------------------------------------------------
+    for name in os.listdir(src_root):
+        if is_junk(name):
+            continue
+
+        src = os.path.join(src_root, name)
+        dst = os.path.join(ROOT, name)
+
+        if os.path.exists(dst):
+            if os.path.isdir(dst):
+                shutil.rmtree(dst)
+            else:
+                os.remove(dst)
+
+        shutil.move(src, dst)
+
+    # --------------------------------------------------
+    # Cleanup
+    # --------------------------------------------------
+    shutil.rmtree(tmp_dir, ignore_errors=True)
+    if os.path.exists(zip_path):
+        os.remove(zip_path)
+
+    return "/content"
+
+
 def DXF_Visualization(file_path):
     # Leer el archivo DXF y convertirlo a base64
     with open(file_path, "rb") as f:
