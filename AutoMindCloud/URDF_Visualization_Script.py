@@ -285,7 +285,7 @@ def URDF_Visualization(
   folder_path: str = "Model",
   select_mode: str = "link",
   background: int | None = 0xFFFFFF,
-  repo: str = "Arthemioxz/AutoMindCloudExperimental",
+  repo: str = "artemioadaysolvers/AutoMindCloudExperimental",
   branch: str = "main",
   compFile: str = "AutoMindCloud/viewer/urdf_viewer_main.js",
   api_base: str = API_DEFAULT_BASE,
@@ -511,7 +511,7 @@ def URDF_Visualization(
   <div id="app"></div>
   <div style="padding-left:20px; overflow:visible; position:fixed; right:0; bottom:0; z-index:999999;">
     <div class="badge" style="display:inline-block; transform: scale(2.5) translateX(-15px); transform-origin: bottom right; margin:0; overflow:visible; pointer-events:none;">
-      <img src="https://raw.githubusercontent.com/Arthemioxz/AutoMindCloudExperimental/main/AutoMindCloud/AutoMindCloud2.png" alt="AutoMind" style="display:block; height:40px; width:auto;"/>
+      <img src="https://raw.githubusercontent.com/artemioadaysolvers/AutoMindCloudExperimental/main/AutoMindCloud/AutoMindCloud2.png" alt="AutoMind" style="display:block; height:40px; width:auto;"/>
     </div>
   </div>
 
