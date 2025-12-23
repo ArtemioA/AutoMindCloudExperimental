@@ -9,12 +9,12 @@
 
 <!-- 🔹 MINI IMAGES SIDE BY SIDE -->
 <p align="center">
-  <img width="180" height="100" alt="Preview 1"
-       src="https://github.com/user-attachments/assets/18c36cdb-51f9-48f0-9458-52fa5ef2e844" />
-  &nbsp;&nbsp;&nbsp;
-  <img width="360" height="200" alt="Preview 2"
-       src="https://github.com/user-attachments/assets/e5e36d66-31bd-4abd-a1c4-029d65075082" />
+  <img width="200" height="200" alt="Preview 1"
+       src="https://github.com/user-attachments/assets/18c36cdb-51f9-48f0-9458-52fa5ef2e844" style="margin-right: 20px;" />
+  <img width="300" height="300" alt="Preview 2"
+       src="https://github.com/user-attachments/assets/a7f1916b-e530-40b9-8b19-1af1d14c5e79" />
 </p>
+
 
 ---
 
