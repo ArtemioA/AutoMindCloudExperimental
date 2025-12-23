@@ -31,7 +31,7 @@
 - ⚙️ **Calculus Digitalization & Automation** (Automatic Evaluation complement to Sympy)  
 - 🧠 **Calculus Summary with IA**  
 - 🧩 **Whiteboard Integration on Colab**  
-- 🧱 **STEP / Orthogonal / URDF Renderers**
+- 🧱 **STEP / URDF Renderers**
 
 ---
 
