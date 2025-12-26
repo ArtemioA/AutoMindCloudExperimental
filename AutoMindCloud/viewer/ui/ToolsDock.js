@@ -273,7 +273,7 @@ export function createToolsDock(app, theme) {
   // ---------- Logic ----------
 
   // ------------------ CONFIG ------------------
-  const CLOSED_TX = -520; // px, off-screen to the left
+  const CLOSED_TX = 560; // px, off-screen to the left
   let isOpen = false;
 
   // Prepare dock styles once
