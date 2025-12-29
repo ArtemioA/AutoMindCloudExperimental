@@ -102,10 +102,8 @@
 ### 🤖 URDF Render on Colab
 <p align="center">
   <img width="1322" height="513" alt="URDF Render"
-       src="https://github.com/user-attachments/assets/78274caa-d11c-4539-a9b6-40eb9df25a9c" />
+       src="https://github.com/user-attachments/assets/e603c2d2-48d1-4405-b705-22e3ae0fb178" />
 </p>
-
-
 
 ### 🤖 DXF Visualization on Colab
 
