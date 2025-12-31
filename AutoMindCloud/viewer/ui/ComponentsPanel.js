@@ -26,7 +26,7 @@ export function createComponentsPanel(app, theme) {
 
   const css = {
     root: {
-      position: "absolute",
+      position: "fixed",
       left: "0",
       top: "0",
       width: "100%",
@@ -149,7 +149,7 @@ export function createComponentsPanel(app, theme) {
   let open = false;
   let building = false;
   let disposed = false;
-  const CLOSED_TX = 520;
+  const CLOSED_TX = -520;
 
   let currentEnt = null;
   let currentIndex = null;
